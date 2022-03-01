@@ -21,12 +21,12 @@ The CMOS standard 6T SRAM cell has two PMOSs, two NMOSs, and two NMOSs as access
 ![4](https://user-images.githubusercontent.com/100713556/156221632-3ef88c14-9f40-48b3-b98f-05108e70e9dd.png)
 # A sense amplifier
 A sense amplifier is required for memory circuits to attain high performance, endurance, and usefulness. It is a part of the read circuitry that is responsible for reading data from memory. Its purpose is to monitor low-power signals from a bit line and convert the tiny voltage difference to full logic voltage, which represents the data bit stored in a memory cell, thus reducing read time significantly. It includes voltage sensing, low-voltage amplification, delay reduction, power consumption reduction, and signal restoration capabilities. They are mainly used to amplify the differential voltage across complimentary bit lines during read operations without flipping the stored cell data, enabling the data to be handled properly by the memory's output circuitry.
-# Pre-![6](https://user-images.githubusercontent.com/100713556/156222379-3fb6956c-0353-4819-b3f7-7a22181c45f1.png)
-charge circuits 
+# Pre-Charge Circuit
 Pre-charge circuits are used to quickly and painlessly charge both bit-lines voltages to VDD before to each read and write operation. The pre-charge circuit is shown. It comprises of two pull-up PMOS transistors and an equalisation that balances the voltages on both bit lines. The pull-up transistors are controlled by the PR signal, which controls the transistor M3, an equalisation signal that balances the voltage on both bit lines. The term "Vdd pre-charge" refers to the pre-charge. In the pre-charge circuit, PMOS transistors are utilised because they are the most efficient at transmitting the Vdd level voltage to the bit lines.
 ![7](https://user-images.githubusercontent.com/100713556/156222409-b64a93ab-929c-4542-a8eb-c652a443cab4.png)
 # 3.	Concluding Remarks
 In this project, a low-power and less area SRAM cell is presented using gpdk 28nm technology.
+
 ![snapshot](https://user-images.githubusercontent.com/100713556/156222719-bf031ad6-2e88-448d-8784-9e2eef69f0d9.png)
 
 
