@@ -29,7 +29,8 @@ Pre-charge circuits are used to quickly and painlessly charge both bit-lines vol
 # 3.	Concluding Remarks
 In this project, a low-power and less area SRAM cell is presented using gpdk 28nm technology.
 
-![snapshot](https://user-images.githubusercontent.com/100713556/156222719-bf031ad6-2e88-448d-8784-9e2eef69f0d9.png)
+![6T_SRAM](https://user-images.githubusercontent.com/100713556/157513011-140710b0-6b9f-40ea-83e9-168c3c901c07.PNG)
+
 
 
 
