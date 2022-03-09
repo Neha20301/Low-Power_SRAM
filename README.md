@@ -27,7 +27,7 @@ A sense amplifier is required for memory circuits to attain high performance, en
 Pre-charge circuits are used to quickly and painlessly charge both bit-lines voltages to VDD before to each read and write operation. The pre-charge circuit is shown. It comprises of two pull-up PMOS transistors and an equalisation that balances the voltages on both bit lines. The pull-up transistors are controlled by the PR signal, which controls the transistor M3, an equalisation signal that balances the voltage on both bit lines. The term "Vdd pre-charge" refers to the pre-charge. In the pre-charge circuit, PMOS transistors are utilised because they are the most efficient at transmitting the Vdd level voltage to the bit lines.
 ![7](https://user-images.githubusercontent.com/100713556/156222409-b64a93ab-929c-4542-a8eb-c652a443cab4.png)
 # 3.	Concluding Remarks
-In this project, a low-power and less area SRAM cell is presented using gpdk 28nm technology.
+In this project, a low-power and less area SRAM cell is presented using gpdk 28nm technology. conventional 6T SRAM cell is having delay so to reduce its delay, precharge circuit and sense amplifier circuit is added so that which is ON is read operation. 
 
 ![6T_SRAM](https://user-images.githubusercontent.com/100713556/157513011-140710b0-6b9f-40ea-83e9-168c3c901c07.PNG)
 
